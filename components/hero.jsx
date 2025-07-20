@@ -29,20 +29,24 @@ const HeroSection = () => {
   return (
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title">
-          Manage Your Finances <br /> with Intelligence
+        <h1 className="text-5xl md:text-8xl lg:text-[100px] pb-6 bg-gradient-to-br from-blue-900 to-purple-800 font-extrabold tracking-tighter pr-2 text-transparent bg-clip-text">
+          Audit Finances of PICT NSS
+          <br /> with Intelligence
         </h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          An AI-powered financial management platform that helps you track,
-          analyze, and optimize your spending with real-time insights.
+        <p className="text-4xl pt-2 text-gray-700 mb-4 max-w-2xl mx-auto font-semibold uppercase">
+          " NOT ME BUT YOU "
         </p>
+        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          Our vision is to build the youth with the mind and spirit to serve the society and work for the social uplift of the down-trodden masses of our nation as a movement.
+        </p>
+
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <Button size="lg" className="px-8">
+            <Button size="lg" className="px-8 bg-blue-950 text-white hover:bg-blue-900">
               Get Started
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
+          <Link href="https://github.com/Omkrishna-git">
             <Button size="lg" variant="outline" className="px-8">
               Watch Demo
             </Button>
@@ -51,7 +55,7 @@ const HeroSection = () => {
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
             <Image
-              src="/banner.jpeg"
+              src="/banner.jpg"
               width={1280}
               height={720}
               alt="Dashboard Preview"

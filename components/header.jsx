@@ -14,8 +14,8 @@ const Header = async () => {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
           <Image
-            src={"/logo.png"}
-            alt="Welth Logo"
+            src={"/nss-bg.png"}
+            alt="NSS Logo"
             width={200}
             height={60}
             className="h-12 w-auto object-contain"
@@ -50,9 +50,9 @@ const Header = async () => {
               </Button>
             </Link>
             <a href="/transaction/create">
-              <Button className="flex items-center gap-2">
+              <Button className="flex items-center gap-2 bg-blue-950 text-white hover:bg-blue-900">
                 <PenBox size={18} />
-                <span className="hidden md:inline">Add Transaction</span>
+                <span className="hidden md:inline ">Add Transaction</span>
               </Button>
             </a>
           </SignedIn>
