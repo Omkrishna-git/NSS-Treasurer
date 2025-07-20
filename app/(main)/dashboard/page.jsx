@@ -14,7 +14,7 @@ export default async function DashboardPage() {
     getUserAccounts(),
     getDashboardData(),
   ]);
-
+  // Find the default account
   const defaultAccount = accounts?.find((account) => account.isDefault);
 
   // Get budget for default account
@@ -52,6 +52,7 @@ export default async function DashboardPage() {
             <AccountCard key={account.id} account={account} />
           ))}
       </div>
+      
     </div>
   );
 }

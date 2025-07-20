@@ -8,6 +8,7 @@ import useFetch from "@/hooks/use-fetch";
 import { scanReceipt } from "@/actions/transaction";
 
 export function ReceiptScanner({ onScanComplete }) {
+ 
   const fileInputRef = useRef(null);
 
   const {

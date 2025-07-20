@@ -14,7 +14,7 @@ export const statsData = [
     label: "NSS Records Managed",
   },
   {
-    value: "$50L+",
+    value: "₹1L+",
     label: "Transactions Handled",
   },
   {
