@@ -104,14 +104,14 @@ export const testimonialsData = [
   {
     name: "Jayant Khandebharad",
     role: "PICT NSS Alumni",
-    image: "/t1.jpg", // 84cd911b-c503-4e88-b725-1e4265e69a54.png
+    image: "/t2.jpg", // 84cd911b-c503-4e88-b725-1e4265e69a54.png
     quote:
       "My time as a volunteer with PICT NSS has been the best time of my life. Handling responsibilities like getting permissions from the administration, arranging things for events, and managing teams taught me so much. These experiences have made me a better person and have also been very helpful in my career. I always look back fondly with time and try to visit whenever I can because I love my juniors.",
   },
   {
     name: "Sakshi Rathi",
     role: "PICT NSS Alumni",
-    image: "/t2.jpg", // 18aae06e-d7fd-4d73-820f-9bb450625b19.png
+    image: "/t1.jpg", // 18aae06e-d7fd-4d73-820f-9bb450625b19.png
     quote:
       "When we stand for change, we ignite the potential to spark a powerful and widespread movement. This movement possesses the ability to wield significant influence, creating ripples that touch every corner of society. This movement draws upon the collective genius of individuals coming together, each contributing their unique talents and insights. United, we can achieve remarkable feats, inspire others, and create a legacy of transformation that resonates for generations.",
   },
