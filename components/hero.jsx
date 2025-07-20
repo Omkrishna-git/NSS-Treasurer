@@ -33,7 +33,7 @@ const HeroSection = () => {
           Audit Finances of NSS
           <br /> with Intelligence
         </h1>
-        <p className="text-4xl pt-2 text-gray-700 mb-4 max-w-2xl mx-auto font-semibold uppercase">
+        <p className="text-3xl pt-2 text-gray-700 mb-4 max-w-2xl mx-auto font-semibold uppercase">
           " NOT ME BUT YOU "
         </p>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
