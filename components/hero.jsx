@@ -30,7 +30,7 @@ const HeroSection = () => {
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
         <h1 className="text-5xl md:text-8xl lg:text-[100px] pb-6 bg-gradient-to-br from-blue-900 to-purple-800 font-extrabold tracking-tighter pr-2 text-transparent bg-clip-text">
-          Audit Finances of PICT NSS
+          Audit Finances of NSS
           <br /> with Intelligence
         </h1>
         <p className="text-4xl pt-2 text-gray-700 mb-4 max-w-2xl mx-auto font-semibold uppercase">

@@ -7,33 +7,41 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 const Header = async () => {
-//   await checkUser();
+  //   await checkUser();
 
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/">
-          <Image
-            src={"/nss-bg.png"}
-            alt="NSS Logo"
-            width={200}
-            height={60}
-            className="h-12 w-auto object-contain"
-          />
-        </Link>
+        <div className="flex items-center space-x-4">
+          <Link href="/" className="flex items-center space-x-4">
+            <Image
+              src="/nss-bg.png"
+              alt="NSS Logo"
+              width={48}
+              height={48}
+              className="h-12 w-12 object-contain"
+            />
+            <span className="text-2xl font-semibold text-blue-950">
+              NSS Treasurer
+            </span>
+          </Link>
+        </div>
 
-        {/* Navigation Links - Different for signed in/out users */}
+        {/* Navigation Links - Visible only when signed out */}
         <div className="hidden md:flex items-center space-x-8">
           <SignedOut>
-            <a href="#features" className="text-gray-600 hover:text-blue-600">
+            <Link
+              href="#features"
+              className="text-gray-600 hover:text-blue-900 transition-colors"
+            >
               Features
-            </a>
-            <a
+            </Link>
+            <Link
               href="#testimonials"
-              className="text-gray-600 hover:text-blue-600"
+              className="text-gray-600 hover:text-blue-900 transition-colors"
             >
               Testimonials
-            </a>
+            </Link>
           </SignedOut>
         </div>
 
@@ -42,7 +50,7 @@ const Header = async () => {
           <SignedIn>
             <Link
               href="/dashboard"
-              className="text-gray-600 hover:text-blue-600 flex items-center gap-2"
+              className="text-gray-600 hover:text-blue-900 flex items-center gap-2"
             >
               <Button variant="outline">
                 <LayoutDashboard size={18} />
